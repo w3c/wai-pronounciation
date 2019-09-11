@@ -55,7 +55,7 @@ Accurate pronunciation is essential in many situations, such as education and as
  
 ## Exploring Technical Solutions
 
-The Pronunciation Task Force has been exploring technical options for content authors to provide pronunciation information. One of the challenges is developing a solution that will work for screen readers. Analysis of technical options is being documented in [Pronunciation Use Cases]( https://www.w3.org/TR/pronunciation-use-cases/).
+The Pronunciation Task Force has been exploring technical options for content authors to provide pronunciation information. A challenge is developing a solution that will be used by screen readers. Analysis of technical options is being documented in [Pronunciation Use Cases]( https://www.w3.org/TR/pronunciation-use-cases/).
 
 One aspect of that work is analyzing how required features for accurate pronunciation are covered in existing technical specifications and if they are currently covered in the HTML specification. This is being documented in [Pronunciation Gap Analysis]( https://www.w3.org/TR/pronunciation-gap-analysis/).
 
@@ -67,8 +67,8 @@ You can follow current work from the [Pronunciation Task Force wiki in GitHub](h
 
 ## Who Develops the Pronunciation Documents
 
-Pronunciation documents are developed by the [Pronunciation Task Force](https://www.w3.org/WAI/APA/task-forces/pronunciation/) of the [Accessible Platform Working Group (APA WG)](https://www.w3.org/WAI/APA/), which is part of the World Wide Web Consortium ([W3C](http://www.w3.org)) Web Accessibility Initiative ([WAI](http://www.w3.org/WAI/)). For more information about the working group, see the [Pronunciation Task Force page](https://www.w3.org/WAI/APA/task-forces/pronunciation/).
+Pronunciation documents are developed by the [Pronunciation Task Force](https://www.w3.org/WAI/APA/task-forces/pronunciation/) of the [Accessible Platform Working Group (APA WG)](https://www.w3.org/WAI/APA/), which is part of the World Wide Web Consortium ([W3C](http://www.w3.org)) Web Accessibility Initiative ([WAI](http://www.w3.org/WAI/)). For more information about the Tawsk Force, see the [Pronunciation Task Force page](https://www.w3.org/WAI/APA/task-forces/pronunciation/).
 
-[How WAI Develops Accessibility Guidelines through the W3C Process: Milestones and Opportunities to Contribute](http://www.w3.org/WAI/intro/w3c-process) describes formal periods for public review. Opportunities for review and comment of WAI documents are announced on the [WAI home page](http://www.w3.org/WAI/) and [WAI Interest Group](http://www.w3.org/WAI/IG/) mailing list. An email address for sending comments is included in the “Status of this Document” section.
+[How WAI Develops Accessibility Guidelines through the W3C Process: Milestones and Opportunities to Contribute](http://www.w3.org/WAI/intro/w3c-process) describes formal periods for public review. To get notifications of drafts for review, see [Get WAI News](https://www.w3.org/WAI/news/subscribe/) for links to WAI tweets, RSS feed, and WAI Interest Group (WAI IG) emails. An email address for sending comments on the pronunciation documents is included in the "Status of this Document" section.
 
 Opportunities for contributing to Pronunciation and other WAI work are introduced in [Participating in WAI](https://www.w3.org/WAI/about/participating/).
