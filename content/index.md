@@ -1,26 +1,32 @@
 ---
-title: "Pronunciation"
+title: "Pronunciation Overview"
 permalink: /pronunciation/
 ref: /pronunciation/
 lang: en
 # translators: # Uncomment (remove #) for translations, one - name line per translator.
 # - name: Translator 1
-# - name: Translator 2
 # contributors:
 # - name: Contributor 1
-# - name: Contributor 2
 github:
   repository: wai-pronounciation
   path: index.md
-footer: > # Text in footer in HTML
-  <p> This is the text in the footer </p>
+footer: >
+  <p><strong>Date:</strong> Updated 11 September 2019.</p>
+  <p><strong>Editors:</strong> <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="http://www.w3.org/People/roy/">Ruoxi Ran</a>.</p>
+  <p>Developed with input from the <a href="https://www.w3.org/WAI/APA/task-forces/pronunciation/">Pronunciation Task Force</a>.<p>
+
 ---
 
 {::nomarkdown}
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod architecto excepturi incidunt, odit modi quidem deserunt doloremque molestias saepe. Iste dolor non repellendus laudantium! Nihil velit mollitia voluptatem ullam libero.
+This page introduces work on pronunciation. The goal is to provide normative specifications and best practices guidance so that text to speech (TTS) synthesis can provide proper pronunciation of HTML content.
+
+Quick links to initial analysis documents:
+*   [Pronunciation User Scenarios - Working Draft](https://www.w3.org/TR/pronunciation-user-scenarios/)
+*   [Pronunciation Use Cases - Working Draft](https://www.w3.org/TR/pronunciation-use-cases/)
+*   [Pronunciation Gap Analysis - Working Draft](https://www.w3.org/TR/pronunciation-gap-analysis/) 
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -37,35 +43,32 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod architecto except
 {% include toc.html type="end" %}
 {:/}
 
-## Heading Level 2
+## Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione placeat ab laboriosam. **Assumenda aut, praesentium (bold)** commodi _nesciunt natus (italic)_ ipsum fugiat [voluptates nisi ipsam voluptas (Link)](https://example.com) recusandae, a. [Sunt eos veritatis numquam (Internal link)]({{ "/permalink/to/page/" | relative_url }})!
+Most people who are blind rely on specialized text-to-speech (TTS) software called screen readers. Some people with cognitive disabilities who have difficulty processing written text also use screen readers.
 
-### Heading Level 3
+Text-to-speech is essential for people with disabilities and useful for all. Many computers and mobile devices today have built in text-to-speech functionality that is used by people without disabilities in different situations, such as when they lose their glasses or their eyes are tired.
 
-1. This is 
-2. a nice
-3. ordered
-4. list.
+Currently text-to-speech pronunciation is often inaccurate and inconsistent because of technology limitations. For example, incorrect pronunciation based on context, regional variation, or emphasis.
 
-#### Heading Level 4
+Accurate pronunciation is essential in many situations, such as education and assessment (testing students). To learn more, see [Pronunciation User Scenarios](https://www.w3.org/TR/pronunciation-user-scenarios/).
+ 
+## Exploring Technical Solutions
 
+The Pronunciation Task Force has been exploring technical options for content authors to provide pronunciation information. One of the challenges is developing a solution that will work for screen readers. Analysis of technical options is being documented in [Pronunciation Use Cases]( https://www.w3.org/TR/pronunciation-use-cases/).
 
-* And this is a
-* bullet list
+One aspect of that work is analyzing how required features for accurate pronunciation are covered in existing technical specifications and if they are currently covered in the HTML specification. This is being documented in [Pronunciation Gap Analysis]( https://www.w3.org/TR/pronunciation-gap-analysis/).
 
-- You can use asterisks
-- or dashes. Whatever floats
-- your boat :-)
+## Status of the Work
 
-##### Heading Level 5
+The documents linked above are in-progress Working Drafts that provide the foundation for future normative specifications and best practices guidance. The Task Force plans to publish regular updates.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione placeat ab laboriosam. Assumenda aut, praesentium commodi nesciunt natus ipsum fugiat voluptates nisi ipsam voluptas recusandae, a. Sunt eos veritatis numquam!
+You can follow current work from the [Pronunciation Task Force wiki in GitHub](https://github.com/w3c/pronunciation/wiki).
 
-## Heading Level 2
+## Who Develops the Pronunciation Documents
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione placeat ab laboriosam. Assumenda aut, praesentium commodi nesciunt natus ipsum fugiat voluptates nisi ipsam voluptas recusandae, a. Sunt eos veritatis numquam!
+Pronunciation documents are developed by the [Pronunciation Task Force](https://www.w3.org/WAI/APA/task-forces/pronunciation/) of the [Accessible Platform Working Group (APA WG)](https://www.w3.org/WAI/APA/), which is part of the World Wide Web Consortium ([W3C](http://www.w3.org)) Web Accessibility Initiative ([WAI](http://www.w3.org/WAI/)). For more information about the working group, see the [Pronunciation Task Force page](https://www.w3.org/WAI/APA/task-forces/pronunciation/).
 
-### Heading Level 3
+[How WAI Develops Accessibility Guidelines through the W3C Process: Milestones and Opportunities to Contribute](http://www.w3.org/WAI/intro/w3c-process) describes formal periods for public review. Opportunities for review and comment of WAI documents are announced on the [WAI home page](http://www.w3.org/WAI/) and [WAI Interest Group](http://www.w3.org/WAI/IG/) mailing list. An email address for sending comments is included in the “Status of this Document” section.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione placeat ab laboriosam. Assumenda aut, praesentium commodi nesciunt natus ipsum fugiat voluptates nisi ipsam voluptas recusandae, a. Sunt eos veritatis numquam!
+Opportunities for contributing to Pronunciation and other WAI work are introduced in [Participating in WAI](https://www.w3.org/WAI/about/participating/).
