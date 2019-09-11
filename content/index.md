@@ -67,7 +67,7 @@ You can follow current work from the [Pronunciation Task Force wiki in GitHub](h
 
 ## Who Develops the Pronunciation Documents
 
-Pronunciation documents are developed by the [Pronunciation Task Force](https://www.w3.org/WAI/APA/task-forces/pronunciation/) of the [Accessible Platform Working Group (APA WG)](https://www.w3.org/WAI/APA/), which is part of the World Wide Web Consortium ([W3C](http://www.w3.org)) Web Accessibility Initiative ([WAI](http://www.w3.org/WAI/)). For more information about the Tawsk Force, see the [Pronunciation Task Force page](https://www.w3.org/WAI/APA/task-forces/pronunciation/).
+Pronunciation documents are developed by the [Pronunciation Task Force](https://www.w3.org/WAI/APA/task-forces/pronunciation/) of the [Accessible Platform Working Group (APA WG)](https://www.w3.org/WAI/APA/), which is part of the World Wide Web Consortium ([W3C](http://www.w3.org)) Web Accessibility Initiative ([WAI](http://www.w3.org/WAI/)). For more information about the Task Force, see the [Pronunciation Task Force page](https://www.w3.org/WAI/APA/task-forces/pronunciation/).
 
 [How WAI Develops Accessibility Guidelines through the W3C Process: Milestones and Opportunities to Contribute](http://www.w3.org/WAI/intro/w3c-process) describes formal periods for public review. To get notifications of drafts for review, see [Get WAI News](https://www.w3.org/WAI/news/subscribe/) for links to WAI tweets, RSS feed, and WAI Interest Group (WAI IG) emails. An email address for sending comments on the pronunciation documents is included in the "Status of this Document" section.
 
