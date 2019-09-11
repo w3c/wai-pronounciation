@@ -9,7 +9,7 @@ lang: en
 # - name: Contributor 1
 github:
   repository: wai-pronounciation
-  path: index.md
+  path: 'content/index.md'
 footer: >
   <p><strong>Date:</strong> Updated 11 September 2019.</p>
   <p><strong>Editors:</strong> <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="http://www.w3.org/People/roy/">Ruoxi Ran</a>.</p>
@@ -33,7 +33,7 @@ Quick links to initial analysis documents:
 {:/}
 
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
+{% include toc.html %}
 {:/}
 
 - This will be replaced by an automatically generated TOC when using Markdown formatting.
@@ -55,9 +55,9 @@ Accurate pronunciation is essential in many situations, such as education and as
  
 ## Exploring Technical Solutions
 
-The Pronunciation Task Force has been exploring technical options for content authors to provide pronunciation information. A challenge is developing a solution that will be used by screen readers. Analysis of technical options is being documented in [Pronunciation Use Cases]( https://www.w3.org/TR/pronunciation-use-cases/).
+The Pronunciation Task Force has been exploring technical options for content authors to provide pronunciation information. A challenge is developing a solution that will be used by screen readers. Analysis of technical options is being documented in [Pronunciation Use Cases](https://www.w3.org/TR/pronunciation-use-cases/).
 
-One aspect of that work is analyzing how required features for accurate pronunciation are covered in existing technical specifications and if they are currently covered in the HTML specification. This is being documented in [Pronunciation Gap Analysis]( https://www.w3.org/TR/pronunciation-gap-analysis/).
+One aspect of that work is analyzing how required features for accurate pronunciation are covered in existing technical specifications and if they are currently covered in the HTML specification. This is being documented in [Pronunciation Gap Analysis](https://www.w3.org/TR/pronunciation-gap-analysis/).
 
 ## Status of the Work
 
