@@ -8,7 +8,7 @@ lang: en
 # contributors:
 # - name: Contributor 1
 github:
-  repository: wai-pronounciation
+  repository: wai-pronunciation
   path: 'content/index.md'
 footer: >
   <p><strong>Date:</strong> Updated 11 September 2019.</p>
