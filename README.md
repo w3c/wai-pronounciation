@@ -1,3 +1,3 @@
-# wai-resource-template
+# wai-pronounciation
 
-Preview: https://wai-resource-template.netlify.com/
+Preview: https://wai-pronounciation.netlify.com/
