@@ -45,7 +45,7 @@ W3C is working toward developing normative specifications and best practices gui
 
 ## Basics
 
-*[Explainer: Improving Spoken Presentation on the Web](https://www.w3.org/TR/pronunciation-explainer/)* provides an overview of the work. It:
+**[Explainer: Improving Spoken Presentation on the Web](https://www.w3.org/TR/pronunciation-explainer/)** provides an overview of the work. It:
 
 - Briefly introduces the context for W3C work on pronunciation
 - Describes the advantages and disadvantages of two approaches
@@ -53,18 +53,18 @@ W3C is working toward developing normative specifications and best practices gui
 
 ## User Scenarios and User Requirements
 
-*[Pronunciation User Scenarios](https://www.w3.org/TR/pronunciation-user-scenarios/)* provides examples of:
+**[Pronunciation User Scenarios](https://www.w3.org/TR/pronunciation-user-scenarios/)** provides examples of:
 - End-users, including screen reader users
 - Content providers, including educators
 - Software developers, including content managements systems
 
-The *[Core Features for Pronunciation and Spoken Presentation section](https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/#core-features-for-pronunciation-and-spoken-presentation)* of the Pronunciation Gap Analysis and Use Cases document describes requirements for pronunciation -- such as language, emphasis, and pausing.
+The **[Core Features for Pronunciation and Spoken Presentation section](https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/#core-features-for-pronunciation-and-spoken-presentation)** of the Pronunciation Gap Analysis and Use Cases document describes requirements for pronunciation -- such as language, emphasis, and pausing.
 
 ## Exploring Technical Solutions
 
 The Pronunciation Task Force has been exploring technical options for content authors to provide pronunciation information. A challenge is developing a solution that will be used by screen readers. One aspect of that work is analyzing how required features for accurate pronunciation are covered in existing technical specifications, including HTML5. 
 
-[Pronunciation Gap Analysis and Use Cases](https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/) provides details on the analysis, It:
+**[Pronunciation Gap Analysis and Use Cases](https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/)** provides details on the analysis, It:
 - Provides more detailed context
 - Describes specific implementation approaches for introducing presentation authoring markup into HTML5 (called “use cases”)
 - Provides a gap analysis
