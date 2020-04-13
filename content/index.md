@@ -11,7 +11,7 @@ github:
   repository: wai-pronunciation
   path: 'content/index.md'
 footer: >
-  <p><strong>Date:</strong> Updated 11 September 2019.</p>
+  <p><strong>Date:</strong> Updated 14 April 2020.</p>
   <p><strong>Editors:</strong> <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="http://www.w3.org/People/roy/">Ruoxi Ran</a>.</p>
   <p>Developed with input from the <a href="https://www.w3.org/WAI/APA/task-forces/pronunciation/">Pronunciation Task Force</a>.<p>
 ---
@@ -20,7 +20,7 @@ footer: >
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-This page introduces work on pronunciation. The goal is to provide normative specifications and best practices guidance so that text to speech (TTS) synthesis can provide proper pronunciation of HTML content.
+This page introduces work on pronunciation. The goal is to provide normative specifications and best practices guidance so that text-to-speech (TTS) synthesis can provide proper pronunciation of HTML content.
 
 Quick links to initial analysis documents:
 *   [Pronunciation User Scenarios - Working Draft](https://www.w3.org/TR/pronunciation-user-scenarios/)
@@ -53,12 +53,14 @@ One aspect of that work is analyzing how required features for accurate pronunci
 
 The documents linked above are in-progress Working Drafts that provide the foundation for future normative specifications and best practices guidance. The Task Force plans to publish regular updates.
 
-You can follow current work from the [Pronunciation Task Force wiki in GitHub](https://github.com/w3c/pronunciation/wiki).
-
 ## Who Develops the Pronunciation Documents
 
 Pronunciation documents are developed by the [Pronunciation Task Force](https://www.w3.org/WAI/APA/task-forces/pronunciation/) of the [Accessible Platform Working Group (APA WG)](https://www.w3.org/WAI/APA/), which is part of the World Wide Web Consortium ([W3C](http://www.w3.org)) Web Accessibility Initiative ([WAI](http://www.w3.org/WAI/)). For more information about the Task Force, see the [Pronunciation Task Force page](https://www.w3.org/WAI/APA/task-forces/pronunciation/).
 
-[How WAI Develops Accessibility Guidelines through the W3C Process: Milestones and Opportunities to Contribute](http://www.w3.org/WAI/intro/w3c-process) describes formal periods for public review. To get notifications of drafts for review, see [Get WAI News](https://www.w3.org/WAI/news/subscribe/) for links to WAI tweets, RSS feed, and WAI Interest Group (WAI IG) emails. An email address for sending comments on the pronunciation documents is included in the "Status of this Document" section.
+## Contributing to the Work
 
 Opportunities for contributing to Pronunciation and other WAI work are introduced in [Participating in WAI](https://www.w3.org/WAI/about/participating/).
+
+To get notifications of drafts for review, see [Get WAI News](https://www.w3.org/WAI/news/subscribe/) for links to WAI tweets, RSS feed, and WAI Interest Group (WAI IG) emails. An email address for sending comments on the pronunciation documents is included in the "Status of this Document" sections.
+
+If you are interested in becoming a participant of the Pronunciation Task Force or have questions regarding its work, contact the task force facilitator [Irfan Ali](href="mailto:iali@ets.org").
