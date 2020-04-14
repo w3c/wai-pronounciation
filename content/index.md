@@ -23,7 +23,7 @@ footer: >
 This page introduces work on pronunciation. The goal is to provide normative specifications and best practices guidance so that text-to-speech (TTS) synthesis can provide proper pronunciation of HTML content.
 
 Quick links to initial analysis documents:
-* [Explainer: Improving Spoken Presentation on the Web _(Working Draft Nots)_](https://www.w3.org/TR/pronunciation-explainer/)
+* [Explainer: Improving Spoken Presentation on the Web _(Working Draft Note)_](https://www.w3.org/TR/pronunciation-explainer/)
 * [Pronunciation User Scenarios _(Working Draft Note)_](https://www.w3.org/TR/pronunciation-user-scenarios/)
 * [Pronunciation Gap Analysis and Use Cases _(Working Draft Note)_](https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/)
 
