@@ -64,7 +64,7 @@ The **[Core Features for Pronunciation and Spoken Presentation section](https://
 
 The Pronunciation Task Force has been exploring technical options for content authors to provide pronunciation information. A challenge is developing a solution that will be used by screen readers. One aspect of that work is analyzing how required features for accurate pronunciation are covered in existing technical specifications, including HTML5. 
 
-**[Pronunciation Gap Analysis and Use Cases](https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/)** provides details on the analysis, It:
+**[Pronunciation Gap Analysis and Use Cases](https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/)** provides details on the analysis. It:
 - Provides more detailed context
 - Describes specific implementation approaches for introducing presentation authoring markup into HTML5 (called “use cases”)
 - Provides a gap analysis
