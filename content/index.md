@@ -77,4 +77,4 @@ Opportunities for contributing to Pronunciation and other WAI work are introduce
 
 To get notifications of drafts for review, see [Get WAI News](https://www.w3.org/WAI/news/subscribe/) for links to WAI tweets, RSS feed, and WAI Interest Group (WAI IG) emails. An email address for sending comments on the pronunciation documents is included in the "Status of this Document" sections.
 
-If you are interested in becoming a participant of the Pronunciation Task Force or have questions regarding its work, contact the task force facilitator [Irfan Ali](href="mailto:iali@ets.org").
+If you are interested in becoming a participant of the Pronunciation Task Force or have questions regarding its work, e-mail [Irfan Ali (Task Force Facilitator) and Roy Ran (W3C Contact)](href=" mailto:iali@ets.org?CC=ran@w3.org&Subject=Personalization%20Task%20Force").
