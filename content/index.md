@@ -11,7 +11,7 @@ github:
   repository: wai-pronunciation
   path: 'content/index.md'
 footer: >
-  <p><strong>Date:</strong> Updated 14 April 2020.</p>
+  <p><strong>Date:</strong> Update 27 April 2020.</p>
   <p><strong>Editors:</strong> <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="http://www.w3.org/People/roy/">Ruoxi Ran</a>.</p>
   <p>Developed with input from the <a href="https://www.w3.org/WAI/APA/task-forces/pronunciation/">Pronunciation Task Force</a>.<p>
 ---
