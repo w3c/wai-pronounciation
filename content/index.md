@@ -11,7 +11,7 @@ github:
   repository: wai-pronunciation
   path: 'content/index.md'
 footer: >
-  <p><strong>Date:</strong> Updated 11 September 2019.</p>
+  <p><strong>Date:</strong> Update 27 April 2020.</p>
   <p><strong>Editors:</strong> <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="http://www.w3.org/People/roy/">Ruoxi Ran</a>.</p>
   <p>Developed with input from the <a href="https://www.w3.org/WAI/APA/task-forces/pronunciation/">Pronunciation Task Force</a>.<p>
 ---
@@ -20,12 +20,12 @@ footer: >
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-This page introduces work on pronunciation. The goal is to provide normative specifications and best practices guidance so that text to speech (TTS) synthesis can provide proper pronunciation of HTML content.
+This page introduces work on pronunciation. The goal is to provide normative specifications and best practices guidance so that text-to-speech (TTS) synthesis can provide proper pronunciation of HTML content.
 
 Quick links to initial analysis documents:
-*   [Pronunciation User Scenarios - Working Draft](https://www.w3.org/TR/pronunciation-user-scenarios/)
-*   [Pronunciation Use Cases - Working Draft](https://www.w3.org/TR/pronunciation-use-cases/)
-*   [Pronunciation Gap Analysis - Working Draft](https://www.w3.org/TR/pronunciation-gap-analysis/) 
+* [Explainer: Improving Spoken Presentation on the Web _(Working Draft Note)_](https://www.w3.org/TR/pronunciation-explainer/)
+* [Pronunciation User Scenarios _(Working Draft Note)_](https://www.w3.org/TR/pronunciation-user-scenarios/)
+* [Pronunciation Gap Analysis and Use Cases _(Working Draft Note)_](https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/)
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -37,28 +37,44 @@ Quick links to initial analysis documents:
 
 Most people who are blind rely on specialized text-to-speech (TTS) software called screen readers. Some people with cognitive disabilities who have difficulty processing written text also use screen readers.
 
-Text-to-speech is essential for people with disabilities and useful for all. Many computers and mobile devices today have built in text-to-speech functionality that is used by people without disabilities in different situations, such as when they lose their glasses or their eyes are tired.
+Text-to-speech is essential for people with disabilities and useful for all. Accurate pronunciation is essential in many situations, such as education and assessment (testing students). Many computers and mobile devices today have built in text-to-speech functionality that is used by people without disabilities in different situations, such as when they lose their glasses or their eyes are tired.
 
 Currently text-to-speech pronunciation is often inaccurate and inconsistent because of technology limitations. For example, incorrect pronunciation based on context, regional variation, or emphasis.
 
-Accurate pronunciation is essential in many situations, such as education and assessment (testing students). To learn more, see [Pronunciation User Scenarios](https://www.w3.org/TR/pronunciation-user-scenarios/).
- 
+W3C is working toward developing normative specifications and best practices guidance so that text-to-speech (TTS) synthesis can provide proper pronunciation of HTML content. The documents below provide the foundation for this work.
+
+## Explainer and User Scenarios
+
+**[Explainer: Improving Spoken Presentation on the Web](https://www.w3.org/TR/pronunciation-explainer/)** provides an overview of the work. It:
+
+- Briefly introduces the context for W3C work on pronunciation
+- Describes the advantages and disadvantages of two approaches
+- Poses questions for additional input
+
+**[Pronunciation User Scenarios](https://www.w3.org/TR/pronunciation-user-scenarios/)** provides examples of:
+- End-users, including screen reader users
+- Content providers, including educators
+- Software developers, including content managements systems
+
 ## Exploring Technical Solutions
 
-The Pronunciation Task Force has been exploring technical options for content authors to provide pronunciation information. A challenge is developing a solution that will be used by screen readers. Analysis of technical options is being documented in [Pronunciation Use Cases](https://www.w3.org/TR/pronunciation-use-cases/).
+The Pronunciation Task Force has been exploring technical options for content authors to provide pronunciation information. A challenge is developing a solution that will be used by screen readers. One aspect of that work is analyzing how required features for accurate pronunciation are covered in existing technical specifications, including HTML5. 
 
-One aspect of that work is analyzing how required features for accurate pronunciation are covered in existing technical specifications and if they are currently covered in the HTML specification. This is being documented in [Pronunciation Gap Analysis](https://www.w3.org/TR/pronunciation-gap-analysis/).
-
-## Status of the Work
-
-The documents linked above are in-progress Working Drafts that provide the foundation for future normative specifications and best practices guidance. The Task Force plans to publish regular updates.
-
-You can follow current work from the [Pronunciation Task Force wiki in GitHub](https://github.com/w3c/pronunciation/wiki).
+**[Pronunciation Gap Analysis and Use Cases](https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/)** provides details on the analysis. It:
+- Provides more detailed context
+- Describes required features for pronunciation and spoken presentation
+- Describes specific implementation approaches for introducing presentation authoring markup into HTML5 (called “use cases”)
+- Provides a gap analysis
+- Describes how the required features may be met by existing approaches
 
 ## Who Develops the Pronunciation Documents
 
 Pronunciation documents are developed by the [Pronunciation Task Force](https://www.w3.org/WAI/APA/task-forces/pronunciation/) of the [Accessible Platform Working Group (APA WG)](https://www.w3.org/WAI/APA/), which is part of the World Wide Web Consortium ([W3C](http://www.w3.org)) Web Accessibility Initiative ([WAI](http://www.w3.org/WAI/)). For more information about the Task Force, see the [Pronunciation Task Force page](https://www.w3.org/WAI/APA/task-forces/pronunciation/).
 
-[How WAI Develops Accessibility Guidelines through the W3C Process: Milestones and Opportunities to Contribute](http://www.w3.org/WAI/intro/w3c-process) describes formal periods for public review. To get notifications of drafts for review, see [Get WAI News](https://www.w3.org/WAI/news/subscribe/) for links to WAI tweets, RSS feed, and WAI Interest Group (WAI IG) emails. An email address for sending comments on the pronunciation documents is included in the "Status of this Document" section.
+## Contributing to the Work
 
 Opportunities for contributing to Pronunciation and other WAI work are introduced in [Participating in WAI](https://www.w3.org/WAI/about/participating/).
+
+To get notifications of drafts for review, see [Get WAI News](https://www.w3.org/WAI/news/subscribe/) for links to WAI tweets, RSS feed, and WAI Interest Group (WAI IG) emails. An email address for sending comments on the pronunciation documents is included in the "Status of this Document" sections.
+
+If you are interested in becoming a participant of the Pronunciation Task Force or have questions regarding its work, e-mail [Irfan Ali (Task Force Facilitator) and Roy Ran (W3C Contact)](mailto:iali@ets.org?CC=ran@w3.org&Subject=Personalization%20Task%20Force).
