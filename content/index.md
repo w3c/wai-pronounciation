@@ -8,8 +8,9 @@ lang: en
 # contributors:
 # - name: Contributor 1
 github:
-  repository: wai-pronunciation
+  repository: w3c/wai-pronunciation
   path: 'content/index.md'
+feedbackmail: wai@w3.org
 footer: >
   <p><strong>Date:</strong> Update 27 April 2020.</p>
   <p><strong>Editors:</strong> <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="http://www.w3.org/People/roy/">Ruoxi Ran</a>.</p>
