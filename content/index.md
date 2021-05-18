@@ -3,7 +3,8 @@ title: "Pronunciation Overview"
 permalink: /pronunciation/
 ref: /pronunciation/
 lang: en
-# translators: # Uncomment (remove #) for translations, one - name line per translator.
+last_updated: 2021-05-18   # put the date the translation was completed or updated
+# translators:   # Uncomment (remove #) for translations, one - name line per translator.
 # - name: Translator 1
 # contributors:
 # - name: Contributor 1
@@ -12,7 +13,7 @@ github:
   path: 'content/index.md'
 feedbackmail: wai@w3.org
 footer: >
-  <p><strong>Date:</strong> Update 27 April 2020.</p>
+  <p><strong>Date:</strong> Updated 18 May 2021.</p>
   <p><strong>Editors:</strong> <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="http://www.w3.org/People/roy/">Ruoxi Ran</a>.</p>
   <p>Developed with input from the <a href="https://www.w3.org/WAI/APA/task-forces/pronunciation/">Pronunciation Task Force</a>.<p>
 ---
@@ -23,10 +24,8 @@ footer: >
 
 This page introduces work on pronunciation. The goal is to provide normative specifications and best practices guidance so that text-to-speech (TTS) synthesis can provide proper pronunciation of HTML content.
 
-Quick links to initial analysis documents:
-* [Explainer: Improving Spoken Presentation on the Web _(Working Draft Note)_](https://www.w3.org/TR/pronunciation-explainer/)
-* [Pronunciation User Scenarios _(Working Draft Note)_](https://www.w3.org/TR/pronunciation-user-scenarios/)
-* [Pronunciation Gap Analysis and Use Cases _(Working Draft Note)_](https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/)
+Quick link to latest publication:
+* [Specification for Spoken Presentation in HTML _(Working Draft Note)_](https://www.w3.org/TR/spoken-html/)
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -46,13 +45,13 @@ W3C is working toward developing normative specifications and best practices gui
 
 ## Explainer and User Scenarios
 
-**[Explainer: Improving Spoken Presentation on the Web](https://www.w3.org/TR/pronunciation-explainer/)** provides an overview of the work. It:
+[Explainer: Improving Spoken Presentation on the Web](https://www.w3.org/TR/pronunciation-explainer/) provides an overview of the work. It:
 
 - Briefly introduces the context for W3C work on pronunciation
 - Describes the advantages and disadvantages of two approaches
 - Poses questions for additional input
 
-**[Pronunciation User Scenarios](https://www.w3.org/TR/pronunciation-user-scenarios/)** provides examples of:
+[Pronunciation User Scenarios](https://www.w3.org/TR/pronunciation-user-scenarios/) provides examples of:
 - End-users, including screen reader users
 - Content providers, including educators
 - Software developers, including content managements systems
@@ -61,12 +60,14 @@ W3C is working toward developing normative specifications and best practices gui
 
 The Pronunciation Task Force has been exploring technical options for content authors to provide pronunciation information. A challenge is developing a solution that will be used by screen readers. One aspect of that work is analyzing how required features for accurate pronunciation are covered in existing technical specifications, including HTML5. 
 
-**[Pronunciation Gap Analysis and Use Cases](https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/)** provides details on the analysis. It:
+[Pronunciation Gap Analysis and Use Cases](https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/) provides details on the analysis. It:
 - Provides more detailed context
 - Describes required features for pronunciation and spoken presentation
 - Describes specific implementation approaches for introducing presentation authoring markup into HTML5 (called “use cases”)
 - Provides a gap analysis
 - Describes how the required features may be met by existing approaches
+
+**[Specification for Spoken Presentation in HTML](https://www.w3.org/TR/spoken-html/)** provides details on two markup approaches. Both satisfy the requirements and provide consistent results. We seek feedback from authors and implementors on which approach would be most implementable across all applications of spoken presentation.
 
 ## Who Develops the Pronunciation Documents
 
@@ -78,4 +79,4 @@ Opportunities for contributing to Pronunciation and other WAI work are introduce
 
 To get notifications of drafts for review, see [Get WAI News](https://www.w3.org/WAI/news/subscribe/) for links to WAI tweets, RSS feed, and WAI Interest Group (WAI IG) emails. An email address for sending comments on the pronunciation documents is included in the "Status of this Document" sections.
 
-If you are interested in becoming a participant of the Pronunciation Task Force or have questions regarding its work, e-mail [Irfan Ali (Task Force Facilitator) and Roy Ran (W3C Contact)](mailto:iali@ets.org?CC=ran@w3.org&Subject=Personalization%20Task%20Force).
+If you are interested in becoming a participant of the Pronunciation Task Force or have questions regarding its work, e-mail [Task Force Facilitators Irfan Ali and Paul Grenier, and W3C Staff Contact Roy Ran](mailto:iali@ets.org?pgrenier@gmail.com?CC=ran@w3.org&Subject=Personalization%20Task%20Force).
