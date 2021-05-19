@@ -25,7 +25,7 @@ footer: >
 This page introduces work on pronunciation. The goal is to provide normative specifications and best practices guidance so that text-to-speech (TTS) synthesis can provide proper pronunciation of HTML content.
 
 Quick link to latest publication:
-* [Specification for Spoken Presentation in HTML _(Working Draft Note)_](https://www.w3.org/TR/spoken-html/)
+* [Specification for Spoken Presentation in HTML _(Working Draft)_](https://www.w3.org/TR/spoken-html/)
 
 {::nomarkdown}
 {% include box.html type="end" %}
