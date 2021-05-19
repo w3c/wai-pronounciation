@@ -3,7 +3,7 @@ title: "Pronunciation Overview"
 permalink: /pronunciation/
 ref: /pronunciation/
 lang: en
-last_updated: 2021-05-18   # put the date the translation was completed or updated
+last_updated: 2021-05-19   # put the date the translation was completed or updated
 # translators:   # Uncomment (remove #) for translations, one - name line per translator.
 # - name: Translator 1
 # contributors:
@@ -13,7 +13,7 @@ github:
   path: 'content/index.md'
 feedbackmail: wai@w3.org
 footer: >
-  <p><strong>Date:</strong> Updated 18 May 2021.</p>
+  <p><strong>Date:</strong> Updated 19 May 2021.</p>
   <p><strong>Editors:</strong> <a href="http://www.w3.org/People/Shawn/">Shawn Lawton Henry</a> and <a href="http://www.w3.org/People/roy/">Ruoxi Ran</a>.</p>
   <p>Developed with input from the <a href="https://www.w3.org/WAI/APA/task-forces/pronunciation/">Pronunciation Task Force</a>.<p>
 ---
@@ -22,10 +22,12 @@ footer: >
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-This page introduces work on pronunciation. The goal is to provide normative specifications and best practices guidance so that text-to-speech (TTS) synthesis can provide proper pronunciation of HTML content.
+This page introduces work to enable screen readers and voice assistants to pronounce words correctly.
+
+The goal is to provide standards and best practices for text-to-speech (TTS) synthesis of HTML content.
 
 Quick link to latest publication:
-* [Specification for Spoken Presentation in HTML _(Working Draft)_](https://www.w3.org/TR/spoken-html/)
+* [Specification for Spoken Presentation in HTML _(Working Draft Note)_](https://www.w3.org/TR/spoken-html/)
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -35,13 +37,27 @@ Quick link to latest publication:
 
 ## Introduction
 
-Most people who are blind rely on specialized text-to-speech (TTS) software called screen readers. Some people with cognitive disabilities who have difficulty processing written text also use screen readers.
+Most people who are blind rely on text-to-speech (TTS) software called screen readers. Some people with cognitive disabilities who have difficulty processing written text also use screen readers. Text-to-speech is essential for people with disabilities and useful for all.
 
-Text-to-speech is essential for people with disabilities and useful for all. Accurate pronunciation is essential in many situations, such as education and assessment (testing students). Many computers and mobile devices today have built in text-to-speech functionality that is used by people without disabilities in different situations, such as when they lose their glasses or their eyes are tired.
+TTS is now widely used in popular applications such as voice assistants. Many computers and mobile devices today have built in text-to-speech functionality that is used by people without disabilities in different situations, such as when they lose their glasses or their eyes are tired.
+ 
+Accurate pronunciation is essential in many situations, such as education and assessment (testing students).
 
-Currently text-to-speech pronunciation is often inaccurate and inconsistent because of technology limitations. For example, incorrect pronunciation based on context, regional variation, or emphasis.
+Currently text-to-speech pronunciation is often inaccurate and inconsistent because of technology limitations. For example, incorrect pronunciation may be based on context, regional variation, or emphasis.
 
-W3C is working toward developing normative specifications and best practices guidance so that text-to-speech (TTS) synthesis can provide proper pronunciation of HTML content. The documents below provide the foundation for this work.
+{::nomarkdown}
+{% include box.html type="start" title="Examples:" %}
+{:/}
+
+The address:<br>"123 Maple Dr., St. Paul, Minn" is often spoken by TTS as:<br>"123 maple doctor, street paul, min"  instead of:<br>"123 Maple Drive, Saint Paul, Minnesota".
+
+"Reading" is pronounced differently if it is the city in England or in the phrase "reading a book".
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+W3C is developing normative specifications (standards) and guidance on best practices so that text-to-speech (TTS) synthesis pronounce HTML content (for example, web pages) correctly. This will allow content creators specify how words should be pronounced.
 
 ## Explainer and User Scenarios
 
@@ -54,7 +70,7 @@ W3C is working toward developing normative specifications and best practices gui
 [Pronunciation User Scenarios](https://www.w3.org/TR/pronunciation-user-scenarios/) provides examples of:
 - End-users, including screen reader users
 - Content providers, including educators
-- Software developers, including content managements systems
+- Software developers, including content management systems
 
 ## Exploring Technical Solutions
 
@@ -67,7 +83,7 @@ The Pronunciation Task Force has been exploring technical options for content au
 - Provides a gap analysis
 - Describes how the required features may be met by existing approaches
 
-**[Specification for Spoken Presentation in HTML](https://www.w3.org/TR/spoken-html/)** provides details on two markup approaches. Both satisfy the requirements and provide consistent results. We seek feedback from authors and implementors on which approach would be most implementable across all applications of spoken presentation.
+**[Specification for Spoken Presentation in HTML](https://www.w3.org/TR/spoken-html/)** provides details on two markup approaches. Both satisfy the requirements and provide consistent results. We seek feedback from authors and implementors on which approach would be most implementable across all spoken presentation applications.
 
 ## Who Develops the Pronunciation Documents
 
